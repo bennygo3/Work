@@ -2,8 +2,7 @@
 
 My project was to create my first portfolio website using only css and html to tell future employers or whoever is curious about me and the work that I have created. The guidelines or requirements for the project included:
 
-![guidelinesWorkLarge](https://user-images.githubusercontent.com/95048609/148660289-6de22326-a049-4f24-b6b7-0d4193fd3b5a.jpeg)
-
+![guidelinesWork Medium](https://user-images.githubusercontent.com/95048609/148660341-d426c63a-c3cb-4f9f-977b-b755b3c0a0c8.jpeg)
 
 My initial idea was to try and duplicate the look of simple business card that would contain my name and some links that would .. 
 

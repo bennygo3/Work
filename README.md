@@ -22,6 +22,16 @@ More and more css and html were added to evolve the project..
 
 ![lowerFinalLarge](https://user-images.githubusercontent.com/95048609/148665081-3ee363f3-6e21-4379-8156-605e77edc5ad.jpeg)
 
+Now for the final step of adding media queries and tinkering with widths and margins to make the project visually appealing and functional for multiple viewports..
+
+The first step was to get rid of the vertical line on the first card that separated my name and links. This would prevent the line from overlapping my name and section links when both of those elements flexed to a column to keep the integrity or look of the (business) card. 
+
+This is what the first card looks like after the viewport shrinks: 
+
+
+
+
+
 
 
 

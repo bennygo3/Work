@@ -31,6 +31,8 @@ This is what the first card looks like after the viewport shrinks:
 ![card1 Medium](https://user-images.githubusercontent.com/95048609/148703320-b1a51d25-c04c-40ee-b759-66acafc2e4bf.jpeg)
  
 The other cards were tidied up and modified to create a finalized product for this project (hopefully)!
+  
+View deployed website: https://bennygo3.github.io/Work/ !
 
 
 

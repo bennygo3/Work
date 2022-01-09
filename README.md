@@ -27,7 +27,10 @@ Now for the final step of adding media queries and tinkering with widths and mar
 The first step was to get rid of the vertical line on the first card that separated my name and links. This would prevent the line from overlapping my name and section links when both of those elements flexed to a column to keep the integrity or look of the (business) card. 
 
 This is what the first card looks like after the viewport shrinks: 
-
+  
+![card1 Medium](https://user-images.githubusercontent.com/95048609/148703320-b1a51d25-c04c-40ee-b759-66acafc2e4bf.jpeg)
+ 
+The other cards were tidied up and modified to create a finalized product for this project (hopefully)!
 
 
 

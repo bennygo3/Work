@@ -60,7 +60,6 @@ body {
     border: 0px;
     margin: 20px;
     color: black;
-    
 }
 
 a { /*switches .buttons in .card from blue*/
@@ -213,25 +212,106 @@ a { /*switches .buttons in .card from blue*/
 
 
 
-@media screen and (max-width: 1228px) and (min-width: 0px) {
+@media screen and (max-width: 928px) and (min-width: 426px) {
     /*deletes vert line on lead card*/  
-    div.vertical{ 
+    
+div.vertical{ 
     display:none;
     /*lead card stacks to prevent horizontal scrolling on smaller screens*/
-}   div.card{ 
+}   
+div.card{ 
     flex-direction: column;
     height: 285px;
     padding-top: 15px;
     text-align: justify;
-}   div#name{
+}   
+div#name{
     padding-left: 10%;
     /*info on the about me section*/}   
-    p.info{ 
+p.info{ 
     padding-left: 10px;
     margin-top: 20px;
 }   
-
+#profilePic img {
+    display: flex;
+    height: 400px;
+    object-fit: fill;
+    border: 2px groove black;
+    border-radius: 8px;
+    align-self: center;
+    float: left;
+    margin: 120px auto auto 15px;
+    width: 90%;
 }
+}
+
+@media screen and (max-width: 425px) and (min-width: 0px){
+#name{
+    font-size: 32px;
+}
+
+.buttons{
+    font-size: 22px;
+    margin: 0px;
+}
+
+.buttons ul{
+    margin-left: -20px;
+}
+div.vertical{ 
+        display:none;
+        /*lead card stacks to prevent horizontal scrolling on smaller screens*/
+    }   
+div.card{ 
+    display: flex;
+        flex-direction: column;
+        height: 235px;
+        padding-top: 0px;
+        
+    }   
+div#name{
+        padding-left: 10%;
+        /*info on the about me section*/
+    }   
+p.info{ 
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+#contactInfo{
+    font-size: 16px;
+    margin: 0px 5px 23px;
+}
+
+#profilePic img {
+    display: flex;
+    height: 200px;
+    object-fit: fill;
+    border: 2px groove black;
+    border-radius: 8px;
+    align-self: center;
+    float: left;
+    margin: 120px auto auto 15px;
+    width: 90%;
+}
+
+#contactCard{
+    margin-top: -12px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+
+.card4{
+    display: flex;
+   
+    
+    flex-direction: column;
+}
+}
+
+
 
 
 

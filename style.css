@@ -1,7 +1,6 @@
 
 * {
     font-family: libre baskerville;
-    
 }
 
 html {
@@ -91,7 +90,8 @@ a { /*switches .buttons in .card from blue*/
 }
 
 .info {
-    margin-top:140px ; 
+    margin-top:87px;
+    line-height: 1.85; 
 }
 /*belongs to card2*/
 #profilePic img {
@@ -182,32 +182,40 @@ a { /*switches .buttons in .card from blue*/
 
 /*contact info card*/
 .card4 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 500px;
-    height: 240px;
+    height: 270px;
     background-color: rgb(245, 240, 231);
     border: 2px groove black;
     border-radius: 6px;
-    display: flex;
-    justify-content: space-evenly;
     margin: 70px auto 70px auto;
     box-shadow: 16px 16px 15px rgb(31, 30, 30);
     overflow: auto;
     position: relative;
     width: 70%;
+}
 
+#disclaimer{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 29%;
+    font-size: 14px;
+    font-family: cursive;
 }
 
 /*Contact header (.card4)*/
 #contactCard { 
     font-size: 25px;
-    margin: auto;
-    position: absolute ;
+    margin-top: -10px;
+    
 }
 
 /*child.card4*/
 #contactInfo { 
-    margin: 73px 2%;
     font-size: 22px;
+    margin-top: -9px;
 }
 
 
@@ -301,12 +309,8 @@ p.info{
     position: relative;
 }
 
-
-
 .card4{
     display: flex;
-   
-    
     flex-direction: column;
 }
 }
